@@ -19,12 +19,20 @@ export default defineConfig({
         title: 'Github',
         path: 'https://github.com/umijs/dumi',
       },
+      {
+        title: 'Docschina',
+        path: 'https://docschina.org/',
+      },
     ],
     'zh-CN': [
       null,
       {
         title: 'Github',
         path: 'https://github.com/umijs/dumi',
+      },
+      {
+        title: '印记中文',
+        path: 'https://docschina.org/',
       },
     ],
   },
