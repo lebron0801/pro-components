@@ -13,6 +13,8 @@ export interface ExtButtonProps extends ButtonProps {
 const ExtButton: React.FC<ExtButtonProps> = (props) => {
   const { children, ...restProps } = props;
 
+  var lebrons = '张三';
+
   return <Button {...restProps}>{children}</Button>;
 };
 
