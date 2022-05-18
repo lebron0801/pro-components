@@ -31,4 +31,4 @@ footer: Open-source MIT Licensed | Copyright © 2021-present
 
 ## Who are using
 
-<embed src="../packages/dumi/README.md#RE-/<table>[^]+?[\r\n]<\/table>/"></embed>
+<embed src="../extends/dumi/README.md#RE-/<table>[^]+?[\r\n]<\/table>/"></embed>

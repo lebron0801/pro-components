@@ -26,3 +26,7 @@ features:
     desc: 一行命令将组件资产数据化，标准化的资产数据可与下游生产力工具串联
 footer: Open-source MIT Licensed | Copyright © 2021-present
 ---
+
+## 谁在使用？
+
+<embed src="../extends/dumi/README.md#RE-/<table>[^]+?[\r\n]<\/table>/"></embed>
