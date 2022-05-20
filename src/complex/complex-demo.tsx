@@ -3,7 +3,7 @@
  * desc: 哈哈哈哈哈哈哈哈哈哈哈哈
  */
 
-import React, { useState } from 'react';
+import React from 'react';
 import ModalContent from './content';
 
 const App = () => {

@@ -12,7 +12,8 @@
     "test": "umi-test",
     "test:coverage": "umi-test --coverage",
     "prepublishOnly": "npm run build",
-    "postversion": "dumi assets"
+    "postversion": "dumi assets",
+    "lint:style": "stylelint \"{src,packages}/**/*.{less,css}\" --fix"
   },
   "dumiAssets": "assets.json",
   "module": "es/index.js",
@@ -22,6 +23,12 @@
     "commit-msg": "fabric verify-commit"
   },
   "lint-staged": {
+    "*.less": [
+      "stylelint --fix"
+    ],
+    "*.{js,jsx,tsx,ts}": [
+      "eslint --fix"
+    ],
     "*.{js,jsx,less,md,json}": [
       "prettier --write"
     ],

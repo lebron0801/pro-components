@@ -1,5 +1,6 @@
 import React from 'react';
-import { Button, ButtonProps } from 'antd';
+import type { ButtonProps } from 'antd';
+import { Button } from 'antd';
 import 'antd/dist/antd.css';
 
 export interface ExtButtonProps extends ButtonProps {
