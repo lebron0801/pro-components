@@ -17,7 +17,7 @@ export default defineConfig({
       null,
       {
         title: 'Github',
-        path: 'https://github.com/umijs/dumi',
+        path: 'https://github.com/lebron0801/pro-components',
       },
       {
         title: 'Docschina',
@@ -28,7 +28,7 @@ export default defineConfig({
       null,
       {
         title: 'Github',
-        path: 'https://github.com/umijs/dumi',
+        path: 'https://github.com/lebron0801/pro-components',
       },
       {
         title: '印记中文',
